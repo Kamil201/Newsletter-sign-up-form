@@ -33,46 +33,55 @@
 					alt="sign-up illustration"
 				/>
 			</picture>
-			<h2 class="newsletter__heading">Stay updated!</h2>
-			<p class="newsletter__information">
-				Join 60,000+ product managers receiving monthly updates on:
-			</p>
-			<ul class="newsletter__lists">
-				<img
-					class="newsletter__icon__list"
-					src="./images/icon-list.svg"
-					alt="icon-list"
-				/>Product discovery and building what matters
+			<div class="newsletter__content">
+				<h2 class="newsletter__heading">Stay updated!</h2>
+				<p class="newsletter__information">
+					Join 60,000+ product managers receiving monthly updates on:
+				</p>
+				<ul class="newsletter__lists">
+					<div class="newsletter__item">
+						<img
+							class="newsletter__icon__list"
+							src="./images/icon-list.svg"
+							alt="icon-list"
+						/>Product discovery and building what matters
+					</div>
 
-				<img
-					class="newsletter__icon__list"
-					src="./images/icon-list.svg"
-					alt="icon-list"
-				/>
-				Measuring to ensure updates are a success
-				<img
-					class="newsletter__icon__list"
-					src="./images/icon-list.svg"
-					alt="icon-list"
-				/>
-				And much more!
-			</ul>
+					<div class="newsletter__item">
+						<img
+							class="newsletter__icon__list"
+							src="./images/icon-list.svg"
+							alt="icon-list"
+						/>
+						Measuring to ensure updates are a success
+					</div>
+					<div class="newsletter__item">
+						<img
+							class="newsletter__icon__list"
+							src="./images/icon-list.svg"
+							alt="icon-list"
+						/>
+						And much more!
+					</div>
+				</ul>
 
-			<form class="newsletter__form__control">
-				<label for="email">Email address </label>
-        <small class = "newsletter__error__message">valid email required</small>
-				<input type="email" id="email" placeholder="email@company.com" />
-				<button class="newsletter__subscribe">
-					Subscribe to monthly newsletter
-				</button>
-			</form>
+				<form class="newsletter__form__control">
+					<label for="email">Email address </label>
+					<small class="newsletter__error__message">valid email required</small>
+					<input type="email" id="email" placeholder="email@company.com" />
+					<button class="newsletter__subscribe">
+						Subscribe to monthly newsletter
+					</button>
+				</form>
+			</div>
 		</section>
 
 		<div class="newsletter__popup__success">
 			<img src="./images/icon-success.svg" alt="icon-success" />
 			<h1>Thanks for subscribing!</h1>
 			<p>
-				A confirmation email has been sent to <span class ="newsletter__email">ash@loremcompany.com.</span> Please open
+				A confirmation email has been sent to
+				<span class="newsletter__email">ash@loremcompany.com.</span> Please open
 				it and click the button inside to confirm your subscription.
 			</p>
 			<button class="newsletter__dismiss__btn">Dismiss message</button>
