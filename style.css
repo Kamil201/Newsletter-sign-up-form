@@ -36,7 +36,6 @@ body {
 }
 
 .newsletter__container {
-	display: none;
 	max-width: 31.25rem;
 	width: 100%;
 }
@@ -93,4 +92,35 @@ body {
 	border-radius: 0.625rem;
 	color: var(--White);
 	cursor: pointer;
+}
+
+.newsletter__popup__success {
+    display:none;
+	margin-top: 3rem;
+	padding: 1.25rem;
+}
+
+.newsletter__popup__success img {
+	margin-bottom: 1.5rem;
+}
+
+.newsletter__popup__success p {
+	margin-top: 1.5rem;
+	color: var(--Dark-Slate-Grey);
+}
+
+.newsletter__email {
+	color: var(--Dark-Slate-Grey);
+	font-weight: bold;
+}
+
+.newsletter__dismiss__btn {
+    margin-top:2.5rem;
+    padding:1rem;
+    width:100%;
+    background-color: var(--Dark-Slate-Grey);
+    color:var(--White);
+    border-radius:0.625rem;
+    font-weight: bold;
+    letter-spacing: 0.063;
 }
