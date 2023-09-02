@@ -71,6 +71,7 @@ body {
 }
 
 .newsletter__error__message {
+    visibility: hidden;
 	color: var(--Tomato);
 	font-weight: 700;
 }
@@ -123,4 +124,15 @@ body {
     border-radius:0.625rem;
     font-weight: bold;
     letter-spacing: 0.063;
+}
+
+.newsletter__form__control.error input{
+    border: 2px solid red;
+    background-color: rgba(255, 99, 71, .3);
+    font-weight: bold;
+    color: rgba(255, 99, 71, .3);
+}
+
+.newsletter__form__control.error .newsletter__error__message{
+    visibility:visible;
 }
