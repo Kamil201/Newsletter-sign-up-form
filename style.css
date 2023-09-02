@@ -85,7 +85,7 @@ body {
 	color: var(--Charcoal-Grey);
 }
 
-.newsletter__subscribe {
+.newsletter__subscribe__btn {
 	font-weight: 600;
 	padding: 0.938rem;
 	width: 100%;
