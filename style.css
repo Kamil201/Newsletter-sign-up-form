@@ -1,3 +1,66 @@
-body{
-    font-family: 'Roboto', sans-serif;
+:root {
+	--Dark-Slate-Grey: hsl(234, 29%, 20%);
+	--Charcoal-Grey: hsl(235, 18%, 26%);
+	--Grey: hsl(231, 7%, 60%);
+	--White: hsl(0, 0%, 100%);
+	--Tomato: hsl(4, 100%, 67%);
+	--fs: 16px;
+}
+
+*,
+*::before,
+*::after {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img,
+picture,
+svg {
+	max-width: 100%;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	overflow-wrap: break-word;
+}
+
+body {
+	font-family: "Roboto", sans-serif;
+}
+
+.newsletter__container {
+	max-width: 31.25rem;
+	width: 100%;
+}
+
+.newsletter__content,
+.newsletter__heading {
+	padding: 1.25rem;
+}
+
+.newsletter__information {
+	margin-bottom: 1.875rem;
+	font-size: var(--fs);
+	font-weight: 700;
+	color: var(--Charcoal-Grey);
+}
+
+.newsletter__item img {
+	margin-right: 0.625rem;
+}
+
+.newsletter__item {
+    margin-top:1.25rem;
+	list-style-type: none;
+}
+
+.newsletter__form__control {
+	margin-top: 1.875rem;
 }
