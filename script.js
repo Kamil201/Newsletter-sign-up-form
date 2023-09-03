@@ -9,3 +9,8 @@ const confirmationEmailEl = document.querySelector(".newsletter__email");
 const dismissBtnEl = document.querySelector(".newsletter__dismiss__btn");
 const newsletterContainerEl = document.querySelector(".newsletter__container");
 
+
+function isValidEmail(email) {
+	const regex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+	return regex.test(email);
+}
