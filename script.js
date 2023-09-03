@@ -14,7 +14,7 @@ function isValidEmail(email) {
 	return regex.test(email);
 }
 
-function handleSubmit(e) {
+function formSubmit(e) {
 	e.preventDefault();
 	const email = emailInputEl.value.trim();
 	if (isValidEmail(email)) {
@@ -29,4 +29,9 @@ function handleSubmit(e) {
 	}
 }
 
-formEl.addEventListener("submit", handleSubmit);
+dismissBtnEl.addEventListener("click", function () {
+	popupEl.style.display = "none";
+	newsletterContainerEl.style.display = "flex";
+});
+
+formEl.addEventListener("submit", formSubmit);
